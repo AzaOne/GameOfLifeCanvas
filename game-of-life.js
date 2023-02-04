@@ -131,6 +131,7 @@ startButton.addEventListener("click", function () {
 });
 
 stepButton.addEventListener("click", function () {
+  stop();
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   generationCount.innerHTML = parseInt(generationCount.innerHTML) + 1;
   nextGeneration();
