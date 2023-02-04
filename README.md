@@ -6,7 +6,7 @@ A cellular automaton simulation game based on John Horton Conway's "Game of Life
 
 1. Clone this repository to your local machine or live demo [here](https://azaone.github.io/GameOfLifeCanvas/).
 2. Click on any cell to bring it to life or kill it.
-3. click randomly on the grid to create a random pattern.
+3. click on the "Random" button to create a random pattern.
 4. Click on the "Start" button to start the simulation.
 5. Click on the "Stop" button to stop the simulation.
 6. Click on the "Step" button to advance the simulation by one step.
