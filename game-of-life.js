@@ -62,7 +62,7 @@ function draw() {
 function nextGeneration() {
   let nextGrid = [];
   for (let i = 0; i < rows; i++) {
-      nextGrid[i] = [];
+    nextGrid[i] = [];
     for (let j = 0; j < columns; j++) {
       let neighbors = 0;
       for (let x = -1; x <= 1; x++) {
@@ -136,7 +136,6 @@ stepButton.addEventListener("click", function () {
   nextGeneration();
   draw();
 });
-
 
 canvas.addEventListener("click", function (event) {
   stop();
